@@ -1,6 +1,6 @@
 # EUSTX50 3d OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_689_rows-blue)](https://getdata.finance/datasets/eustx50) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eustx50)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_690_rows-blue)](https://getdata.finance/datasets/eustx50) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eustx50)
 
 ### -> [**Download the full EUSTX50 dataset on getdata.finance**](https://getdata.finance/datasets/eustx50)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 3d OHLCV** for **EURO STOXX 50** (Index)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/eustx50) · **1,689** `3d` rows in the full archive
+- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/eustx50) · **1,690** `3d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3d` sample updated in sync
 
-> **Sample on GitHub** · `EUSTX50_3d.csv` (244 rows, `2024-09-11` -> `2026-09-22`, 22.00 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eustx50)** — **1,689** `3d` rows (full `1m`: 2,770,438), **11 timeframes**, `2012-08-27` -> `2026-09-22`.
+> **Sample on GitHub** · `EUSTX50_3d.csv` (244 rows, `2024-09-14` -> `2026-09-25`, 22.00 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eustx50)** — **1,690** `3d` rows (full `1m`: 2,770,438), **11 timeframes**, `2012-08-27` -> `2026-09-25`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | EURO STOXX 50 · Index | EURO STOXX 50 · Index |
 | Timeframes | `3d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 3d rows | 244 | **1,689** |
+| 3d rows | 244 | **1,690** |
 | Size | 22.00 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eustx50) |
-| Period | `2024-09-11` -> `2026-09-22` | `2012-08-27` -> `2026-09-22` |
+| Period | `2024-09-14` -> `2026-09-25` | `2012-08-27` -> `2026-09-25` |
 | File | `EUSTX50_3d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/eustx50) |
 | Coverage report | — | [EUSTX50 coverage](https://getdata.finance/coverage/eustx50) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`EUSTX50_3d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2024-09-11T00:00:00+00:00 | 4835.36 | 4923.94 | 4804.84 | 4916.97 | 51464 |
 | 2024-09-14T00:00:00+00:00 | 4916.97 | 4925.38 | 4890.37 | 4920.41 | 10903 |
 | 2024-09-17T00:00:00+00:00 | 4920.41 | 5024.31 | 4900.32 | 5009.37 | 56527.04751 |
 | 2024-09-20T00:00:00+00:00 | 5009.37 | 5009.37 | 4939.47 | 4947.53 | 14535 |
 | 2024-09-23T00:00:00+00:00 | 4947.53 | 5030.38 | 4927.71 | 4990.39 | 30110 |
+| 2024-09-26T00:00:00+00:00 | 4990.39 | 5152.23 | 4990.39 | 5129.22 | 21109 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-10T00:00:00+00:00 | 6299.59 | 6342.26 | 6250.97 | 6320.3 | 44056 |
 | 2026-09-13T00:00:00+00:00 | 6320.3 | 6320.3 | 6193.86 | 6245.9 | 57106 |
-| 2026-09-16T00:00:00+00:00 | 6245.9 | 6337.71 | 6226.73 | 6239.79 | 65663 |
+| 2026-09-16T00:00:00+00:00 | 6245.9 | 6337.71 | 6226.73 | 6239.79 | 67912 |
 | 2026-09-19T00:00:00+00:00 | 6239.79 | 6355.64 | 6239.79 | 6346.68 | 11156 |
-| 2026-09-22T00:00:00+00:00 | 6346.68 | 6372.51 | 6294.49 | 6358.5 | 23820 |
+| 2026-09-22T00:00:00+00:00 | 6346.68 | 6373.81 | 6255.37 | 6312.44 | 82096 |
+| 2026-09-25T00:00:00+00:00 | 6312.44 | 6353.62 | 6296.11 | 6351.65 | 23324 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **EUSTX50** archive on **[getdata.finance](https://getdata.finance/datasets/eustx50)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,689** rows at `3d`, plus all other timeframes in the same ZIP.
+The complete **EUSTX50** archive on **[getdata.finance](https://getdata.finance/datasets/eustx50)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,690** rows at `3d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full EUSTX50 dataset on getdata.finance](https://getdata.finance/datasets/eustx50)**
 
